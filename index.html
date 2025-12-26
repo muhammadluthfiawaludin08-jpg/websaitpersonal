@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>SkyBook - Pemesanan Tiket Pesawat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+<div class="container">
+    <h1>✈ SkyBook</h1>
+    <p>Sistem Pemesanan Tiket Pesawat Online</p>
+
+    <form action="proses.php" method="POST" id="formPemesanan">
+        <input type="text" name="nama" placeholder="Nama Lengkap">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="tujuan" placeholder="Tujuan Penerbangan">
+        <input type="date" name="tanggal">
+        <input type="number" name="jumlah_tiket" placeholder="Jumlah Tiket">
+        <button type="submit">Pesan Tiket</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
